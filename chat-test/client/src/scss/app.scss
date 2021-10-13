@@ -1,0 +1,108 @@
+.chat_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(243, 244, 246, 1);
+
+    .chat_inner {
+        display: grid;
+        place-items: center;
+        margin: auto 0;
+
+        h1 {
+            color: rgba(17, 24, 39, var(--tw-text-opacity));
+            font-weight: 700;
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+            padding-bottom: 2.5rem;
+        }
+
+    }
+
+    .form_inner {
+        display: flex;
+
+        button {
+            margin-left: 15px;
+            background-color: #34d399;
+            color: #1f4364;
+            padding: 10px 20px;
+            border-radius: 7px;
+        }
+
+        .input_inner {
+            height: 45px;
+            padding: 17px;
+            border-radius: 5px;
+
+            &:focus {
+                outline: none;
+                border: transparent;
+
+            }
+        }
+    }
+
+    .chat_heading {
+        font-weight: bold;
+        font-size: 2.25rem;
+        padding-bottom: 2.5rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .form_main {
+        display: flex;
+        width: 100%;
+        max-width: 24rem;
+        justify-content: center;
+
+        .form_wrapper {
+            position: relative;
+
+            .form_input {
+                border-radius: 0.5rem;
+                border: transparent;
+                appearance: none;
+                flex: 1 1 0%;
+                border: 1px solid rgba(209, 213, 219, 1);
+                width: 100%;
+                padding: 0.5rem 1rem;
+                background: white;
+                color: rgba(55, 65, 81, 1);
+                font-size: 1rem;
+                line-height: 1.5rem;
+            }
+
+            &:focus {
+                outline: none;
+                border: transparent;
+
+            }
+
+            &::-webkit-input-placeholder {
+                color: rgba(156, 163, 175, 1)
+            }
+        }
+
+        .form_btn {
+            flex-shrink: 0;
+
+            background-color: rgba(156, 163, 175, 1);
+            color: rgba(31, 41, 55, 1);
+            font-size: 1rem;
+            line-height: 1.5rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+
+        }
+
+        &:hover {
+            background-color: rgba(4, 120, 87, 1);
+        }
+
+    }
+
+}
