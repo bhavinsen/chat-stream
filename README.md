@@ -8,7 +8,7 @@ Follow the command
 
 `npm install`
 
-'npm start`
+`npm start`
 
 # client
 
