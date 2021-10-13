@@ -1,5 +1,9 @@
 # chat-stream
 
+First , you need to go into the folder
+
+`cd chat-test`
+
 # server
 
 step -1
